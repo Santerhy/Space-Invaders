@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2711591360963144568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2711591360963144574}
+  - component: {fileID: 2711591360963144575}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2711591360963144574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711591360963144568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 541.6956, y: 440.45258, z: -298.3707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2711591360963144575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711591360963144568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754780c422a281d4db0f098dc9170050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 59f3acd890b2f7d4f9ad86ecf633a7a3, type: 3}
+    volume: 1
+    pitch: 1.73
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerExplosion
+    clip: {fileID: 8300000, guid: 03e8e7d837a8bac4996077b79327a468, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PowerupPickup
+    clip: {fileID: 8300000, guid: ac0ff2bd09ae68144831117e40d18600, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EnemyExplosion
+    clip: {fileID: 8300000, guid: f05d662d0495d794db2c7508ea647da1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EnemyShoot
+    clip: {fileID: 8300000, guid: 6aa154ea27970094d89f2b178048608b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: MenuClick
+    clip: {fileID: 8300000, guid: 31c4d73569a34444186b3f5fa711cc41, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: ef680795191e4194db5319e78327fb59, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: MenuTheme
+    clip: {fileID: 8300000, guid: c6d69437f6c006d47bc7fcb93744e315, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: BonusExplosion
+    clip: {fileID: 8300000, guid: f05d662d0495d794db2c7508ea647da1, type: 3}
+    volume: 1
+    pitch: 1.41
+    source: {fileID: 0}
+    loop: 1
+  audioMixerGroupMusic: {fileID: -3521077296552181530, guid: a708b28b07d23634689b9be15bd80749, type: 2}
+  audioMixerGroupSfx: {fileID: -7158722633844001203, guid: a708b28b07d23634689b9be15bd80749, type: 2}
